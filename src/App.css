@@ -1,0 +1,104 @@
+/* Global Styling */
+body {
+  background-color: #d6eef7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #333; /* Set text color for better readability */
+}
+
+/* Timer Styling */
+.timer {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Quiz and Result Container Styling */
+.quiz, .result {
+  background-color: #FBFBFB;
+  padding: 50px;
+  margin: 50px auto;
+  max-width: 700px; /* Adjusted width for better appearance */
+  border-radius: 20px; /* Slightly less rounded for a more modern feel */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Improved shadow effect */
+  border: 1px solid #ddd; /* Light border for subtle separation */
+}
+
+/* Button Styles */
+.options button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 24px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+.options button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Result Section Styling */
+.result {
+  background-color: #e0f7fa;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Restart Button Styling */
+.result button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Restart Button Hover Effect */
+.result button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Restart Button Focus Effect */
+.result button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.7);
+}
+
+/* Restart Button Active Effect */
+.result button:active {
+  background-color: #388e3c;
+  transform: scale(0.98);
+}
+
+/* Result Text Styling */
+.result p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Special Styling for Score or Outcome Text */
+.result p:nth-child(3) {
+  font-size: 22px;
+  font-weight: bold;
+  color: #388e3c; /* Green color for positive outcome */
+}
